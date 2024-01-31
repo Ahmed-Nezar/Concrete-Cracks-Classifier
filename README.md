@@ -4,13 +4,13 @@
 Crack detection has vital importance for structural health monitoring and inspection. We would like to train a network to detect Cracks, we will denote the images that contain cracks as positive and images with no cracks as negative.
 
 We used different models as below:
-    - ResNet50
-    - VGG16
-    - ResNet18
+- ResNet50
+- VGG16
+- ResNet18
 
 You will find in the repositry each model & the directories will be divided as follows:
-    - /models: contains the saved model after training
-    - /notebooks: contains the notebooks used for training
+- /models: contains the saved model after training
+- /notebooks: contains the notebooks used for training
 
 In each of the architectures mentioned above the fully connected layer was changed to classify the images into two classes (positive & negative) & the activation function we used was softmax.
 
@@ -18,10 +18,10 @@ In each of the architectures mentioned above the fully connected layer was chang
 The dataset used if from IBM capstone project of the professional cerificate [AI Engineering](https://www.coursera.org/professional-certificates/ai-engineer?) 
 
 Dataset can be found from the following links:
-    - Data for ResNet50 & VGG16: [link](https://s3-api.us-geo.objectstorage.softlayer.net/cf-courses-data/CognitiveClass/DL0321EN/data/concrete_data_week3.zip)
-    - Data for ResNet18:
-        - [Positive Tensors](https://s3-api.us-geo.objectstorage.softlayer.net/cf-courses-data/CognitiveClass/DL0321EN/data/images/Positive_tensors.zip)
-        - [Negative Tensors](https://s3-api.us-geo.objectstorage.softlayer.net/cf-courses-data/CognitiveClass/DL0321EN/data/images/Negative_tensors.zip)
+- Data for ResNet50 & VGG16: [link](https://s3-api.us-geo.objectstorage.softlayer.net/cf-courses-data/CognitiveClass/DL0321EN/data/concrete_data_week3.zip)
+- Data for ResNet18:
+    - [Positive Tensors](https://s3-api.us-geo.objectstorage.softlayer.net/cf-courses-data/CognitiveClass/DL0321EN/data/images/Positive_tensors.zip)
+    - [Negative Tensors](https://s3-api.us-geo.objectstorage.softlayer.net/cf-courses-data/CognitiveClass/DL0321EN/data/images/Negative_tensors.zip)
 
 ## Training
 The below table will show the training for each model with the number of epochs & the accuracy achieved.
