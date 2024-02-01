@@ -3,6 +3,12 @@
 ## Introduction
 Crack detection has vital importance for structural health monitoring and inspection. We would like to train a network to detect Cracks, we will denote the images that contain cracks as positive and images with no cracks as negative.
 
+Example from images in the dataset:
+
+
+![Negative_Sample](https://github.com/Ahmed-Nezar/Concrete-Cracks-Classifier/assets/125882735/83b5a623-92fa-4899-98c8-12e03d2f4211)    ![Positive_Sample](https://github.com/Ahmed-Nezar/Concrete-Cracks-Classifier/assets/125882735/a19956e3-be71-4559-a128-0de7251c5e30)
+    
+
 We used different models as below:
 - ResNet50
 - VGG16
