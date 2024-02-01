@@ -21,7 +21,7 @@ You will find in the repositry each model & the directories will be divided as f
 In each of the architectures mentioned above the fully connected layer was changed to classify the images into two classes (positive & negative) & the activation function we used was softmax.
 
 ## Dataset
-The dataset used if from IBM capstone project of the professional cerificate [AI Engineering](https://www.coursera.org/professional-certificates/ai-engineer?) 
+The dataset used is from IBM capstone project of the professional cerificate [AI Engineering](https://www.coursera.org/professional-certificates/ai-engineer?) 
 
 Dataset can be found from the following links:
 - Data for ResNet50 & VGG16: [link](https://s3-api.us-geo.objectstorage.softlayer.net/cf-courses-data/CognitiveClass/DL0321EN/data/concrete_data_week3.zip)
